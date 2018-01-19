@@ -5,10 +5,10 @@ CREATE DATABASE  programming_db;
 USE programming_db;
 
 CREATE TABLE programming_languages (
-id INTEGER(11) AUTO_INCREMENT NOT NULL,
-languages VARCHAR(100),
-rating INTEGER(10),
-PRIMARY KEY (id)
+  id INTEGER(11) AUTO_INCREMENT NOT NULL,
+  languages VARCHAR(100),
+  rating INTEGER(10),
+  PRIMARY KEY (id)
 );
 
 SELECT *
